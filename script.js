@@ -56,8 +56,5 @@ window.addEventListener("load", function() {
                <img src="${json[3].image}">
             `
          });
-      } );   
-      event.preventDefault();
-      });
-
-   });
+      });   
+      
