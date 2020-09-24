@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
             if (fuelLevel < 10000 || cargoMass > 10000){
                document.getElementById("faultyItems").style.visibility = "visible";
                let launchStatus = document.getElementById("launchStatus");
-                  launchStatus.innerHTML = "Shuttle isn't ready for launch";
+                  launchStatus.innerHTML = "Shuttle is not ready for launch";
                   launchStatus.style.color = "red";
                      if (fuelLevel < 10000) {
                         document.getElementById("fuelStatus").innerHTML = "Not enough fuel for the journey.";
